@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    
+}
+
+/* Utility class */
+h1,h2,h3{
+    color: #ffff;
+
+}
+p{
+    color: #ffff;
+}
+
+span{
+    color: #ffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.container{
+    padding: 0 100px;
+}
+/* ---------------------------------------------------------- */
+body{
+    background-color: rgba(7, 0, 0, 0.935);
+}
+
+.hero-section{
+    display: flex;
+}
+.left-section{
+    margin-left: 200px;
+    
+   
+}
+.logo{
+    position: absolute;
+    width: 40px;
+    margin-top: 20px;
+    
+}
+
+.main-img{
+    padding-left: 100px;
+    width: 300px;
+    margin-top: -20px;
+}
+
+.right-section{
+    margin-left: 70px;
+
+}
+.nav-links{
+    display: flex;
+    margin-top: 25px;
+    gap: 50px;
+    align-items: center;
+}
+.links{
+    text-decoration: none;
+    color: #ffff;
+    font-size: large;
+    font-weight: 700;
+}
+
+.btn{
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffff;
+    background-color: rgb(59, 58, 58);
+    border-left: 3px solid #807f7f;
+    border-top: 3px solid #807f7f;
+    border-radius: 5px;
+    padding: 8px 35px;
+
+}
+
+/* -------------------------------------------------------------------- */
+
+.right-img img{
+    margin: 70px 0 0 90px;
+}
+
+.right-section h1{
+    font-size: 80px;
+    margin-top: 10px;
+    font-family:sans-serif;
+}
+
+.right-section h2{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.disc-text{
+    padding-right: 200px;
+}
+.right-section p{
+    margin-top: 10px;
+    text-align: justify;
+    padding-right: 70px;
+    margin-right: 30px;
+}
+
+.p-btn{
+    margin-top: 20px;
+
+}
+
+.purchase-btn{
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color:  rgb(59, 58, 58);
+}
+
+/* ---------------COMPANIES LOGO SECTION-------------------------- */
+
+.companies-logo{
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+}
+
+.product-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.product-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.product-disc{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 0 200px;
+    gap: 40px;
+}
+
+.product-bluetooth,.product-microphone{
+    margin-left: 30px;
+}
+
+.spec-img img{
+    width: 300px;
+}
+
+/* -------------------CASE--------------------------------------- */
+.main-case-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.case-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.left-case img{
+    width: 80%;
+}
+
+.right-case{
+    width: 20%;
+}
+.more-info-btn{
+    margin-top: 15px;
+    border-color: #1e1e21;
+    background: #1e1e21;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+/* ---------------------BUY PRODUCT SECTION -----------------------*/
+.buy-product {
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+    padding: 40px 0;
+  }
+
+
+
+.buy-product div {
+  width: 25%;
+}
+
+.buy-product div h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.buy-product div p {
+  color: #bdc0c2;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.buy-product div div {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: #000000;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.buy-product div div img {
+  scale: 0.8;
+  margin-right: 10px;
+}
+
+.buy-product div div p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: white;
+}
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+}
+
+.product-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-logo {
+  scale: 0.3;
+}
+
+.product-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 50px;
+}
+
+.product-card {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+
+.product-img {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  z-index: 100;
+  top: -40px;
+  left: 28px;
+}
+
+
+.product-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 10px 15px;
+}
+
+.product-info p {
+  font-size: 12px;
+}
+
+.product-info p span {
+  color: #bdc0c2;
+}
+
+.product-info div {
+  background: #0a0a0b;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+
+.product-info div img {
+  width: 13px;
+  height: 13px;
+}
+
+.product-column{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+
+
+/* --------------------------FOOTER STARTS--------------------- */
+footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .footer-logo{
+    scale: 0.8;
+  }
+  
+  ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+  }
+  
+  ul li:first-child a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  ul li:first-child{
+    margin-bottom: 10px;
+  }
+  
+  .subscription-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .subscription-footer div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .subscription-footer div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe-button img{
+    scale: 0.8;
+  }
+  
+  .subscribe-button p{
+    font-size: 12px;
+  }
+  
+  .subscription-footer div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+  }
+  
+  .Arrow-up{
+    position: absolute;
+    right: -140px;
+    scale: 0.8;
+  }
+
+
+
+
+  
