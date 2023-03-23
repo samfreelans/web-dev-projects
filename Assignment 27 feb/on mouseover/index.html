@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouseover</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,    300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,    900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+
+    <div class="container">
+        <div class="main-area">
+            <div class="card">
+                <h1>MOUSEHOVER</h1>
+
+                <h2>Ankit Mehra</h2>
+
+                <img id="img" src="https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" >
+
+                <span>Web Developer</span>
+            </div>
+
+            <div class="detail ">
+                <h2>Detail About Me</h2>
+
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa pariatur est exercitationem quibusdam eveniet commodi ullam repellat! Neque expedita, illo ipsa rem recusandae quos quibusdam dolores, itaque, vero inventore nisi numquam! Eligendi dolores nemo, ratione doloribus maiores labore accusamus commodi consequuntur laborum reiciendis, non doloremque atque est quos quia autem.</span>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    
+
+    <script>
+        const detail=document.querySelector('.detail')
+        const showdetail=document.querySelector('.show')
+        const mainArea=document.querySelector('.main-area')
+
+        mainArea.addEventListener('mouseover',()=>{
+            detail.classList.toggle('show');
+        })
+
+
+
+
+
+
+
+    </script>
+
+    </body>
+    </html>
